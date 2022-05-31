@@ -13,20 +13,24 @@ namespace EscrituraArchivos
         static void Main(string[] args)
         {
             StreamWriter sw = new StreamWriter("ejemplo.txt" , true); //Para sobreescribir es false, para escribir es true
-                                                               //se utiliza una "," despues del documento. 
-            //Si el archivo no existe lo crea
-            //Si ya existe, escribira en el
+                                                                      //se utiliza una "," despues del documento. 
+                                                                      //Si el archivo no existe lo crea
+                                                                      //Si ya existe, escribira en el
 
 
-            string[] lines =
-            {
-                "Esta es la informacion de la primera linea.",
-                "Esta es la segunda linea",
-                "Fin del texto"
-            };
+            //Variable 
+            string[] lines = new string[2];
+            int[] e = new int[1];
+            
+            //Captura de variables
+            Console.Write("Introduce tu(s) nombre(s): ");
+            lines[0] = Console.ReadLine();
+
+            Console.Write("Introduce tu(s) apellido(s): ");
+            lines[1] = Console.ReadLine();
 
 
-            foreach(string line in lines)
+            foreach (string line in lines)
             {
                 sw.WriteLine(line);
             }
