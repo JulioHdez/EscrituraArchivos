@@ -1,0 +1,6 @@
+Esta es la informacion de la primera linea.
+Esta es la segunda linea
+Fin del texto
+Esta es la informacion de la primera linea.
+Esta es la segunda linea
+Fin del texto
