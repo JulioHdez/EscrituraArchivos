@@ -1,0 +1,7 @@
+C:\Users\julal\Documents\GitHub\EscrituraArchivos\EscrituraArchivos-POO\bin\Debug\EscrituraArchivos-POO.exe.config
+C:\Users\julal\Documents\GitHub\EscrituraArchivos\EscrituraArchivos-POO\bin\Debug\EscrituraArchivos-POO.exe
+C:\Users\julal\Documents\GitHub\EscrituraArchivos\EscrituraArchivos-POO\bin\Debug\EscrituraArchivos-POO.pdb
+C:\Users\julal\Documents\GitHub\EscrituraArchivos\EscrituraArchivos-POO\obj\Debug\EscrituraArchivos-POO.csproj.AssemblyReference.cache
+C:\Users\julal\Documents\GitHub\EscrituraArchivos\EscrituraArchivos-POO\obj\Debug\EscrituraArchivos-POO.csproj.CoreCompileInputs.cache
+C:\Users\julal\Documents\GitHub\EscrituraArchivos\EscrituraArchivos-POO\obj\Debug\EscrituraArchivos-POO.exe
+C:\Users\julal\Documents\GitHub\EscrituraArchivos\EscrituraArchivos-POO\obj\Debug\EscrituraArchivos-POO.pdb
