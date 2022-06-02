@@ -8,42 +8,16 @@ using System.IO;
 
 namespace EscrituraArchivos_POO
 {
-    public class Equipo
+    //Clase 
+    public class Galgos
     {
-        //Campos de la clase
+        //Campos de la clase 
         public string nombre, apellido, talla, espalda;
         public int num;
-
-        ////Constructor
-        //public Equipo(string nombre, string apellido, string talla, int num, string espalda)
-        //{
-        //    this.nombre = nombre;
-        //    this.apellido = apellido;
-        //    this.talla = talla;
-        //    this.num = num;
-        //    this.espalda = espalda;
-        //}
-
-
-        //Metodo de la clase
-        public virtual void Camiseta()
-        {
-            Console.WriteLine("El nombre del jugador es: {0}" , nombre);
-            Console.WriteLine("El apellido del jugador es: {0}", apellido);
-            Console.WriteLine("El número elegido por el jugador {0} es: {1}" , nombre , num);
-            Console.WriteLine("La talla del jugador es: {0}" , talla);
-            Console.WriteLine("En la parte trasera de la camiseta se mostrará lo siguiente: '{0}' junto al número elegido ({1})." , espalda , num);
-        }
-    }
-
-    //clase derivada
-    public class Galgos : Equipo
-    {
-        //Campos de la clase derivada
         public string escuela;
 
         //Constructor
-        public Galgos(string nombre, string apellido, string talla, int num, string espalda,string escuela) :base()
+        public Galgos(string nombre, string apellido, string talla, int num, string espalda,string escuela)
         {
             this.nombre = nombre;
             this.apellido = apellido;
@@ -53,7 +27,8 @@ namespace EscrituraArchivos_POO
             this.escuela = escuela;
         }
 
-    public override void Camiseta()
+        //Metodo de la clase
+        public void Camiseta()
         {
             Console.WriteLine("El nombre del jugador es: {0}", nombre);
             Console.WriteLine("El apellido del jugador es: {0}", apellido);
@@ -76,7 +51,7 @@ namespace EscrituraArchivos_POO
             string nombre, apellido, talla, espalda;
             int num;
 
-            
+            //Captura de Variables
             Console.Write("Ingresa tu nombre: ");
             nombre = Console.ReadLine();
 
@@ -101,7 +76,7 @@ namespace EscrituraArchivos_POO
             //Invoque de metodo
             galgos.Camiseta();
 
-            sw.WriteLine("Jugador: " +galgos.nombre + " " + galgos.apellido + "\tTalla: " + galgos.talla + "\tNúmero: " + galgos.num + "\tEspalda: " + galgos.espalda);
+            sw.WriteLine("Jugador: " + galgos.nombre + " " + galgos.apellido + "\tTalla: " + galgos.talla + "\tNúmero: " + galgos.num + "\tEspalda: " + galgos.espalda);
             sw.Close();
 
             Console.WriteLine("Presiona ENTER para continuar...");
